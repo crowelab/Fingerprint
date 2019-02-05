@@ -1,0 +1,54 @@
+patch.linewidth : 0
+patch.facecolor : white
+patch.edgecolor : white
+# patch.antialiased: True
+
+axes.facecolor: white
+axes.edgecolor: black
+axes.linewidth: 2
+axes.grid: False
+axes.spines.left   : True
+axes.spines.bottom : True
+axes.spines.top    : False
+axes.spines.right  : False
+
+axes.titlesize: x-large
+axes.titleweight: bold
+axes.labelsize: large
+axes.labelweight: bold
+axes.axisbelow: True       # grid/ticks are below elements (e.g., lines, text)
+
+#axes.xmargin : 0
+#axes.ymargin : 0
+
+xtick.direction: out
+xtick.major.size: 4
+xtick.major.width: 2
+xtick.labelsize: medium
+xtick.color : k
+
+ytick.direction: out
+ytick.major.size: 4
+ytick.major.width: 2
+ytick.labelsize: medium
+ytick.color : k
+
+axes.prop_cycle : cycler('color', ['004CF8','FF3421','00C22E','BC4EE3','FF932F','000000','A87635','00278E','762162','B42013'])
+
+
+figure.facecolor: white
+figure.edgecolor: 0.50
+
+
+axes.labelcolor : k
+pdf.fonttype : 42
+font.family : sans-serif
+font.sans-serif : Helvetica
+font.size : 12
+font.weight : bold
+
+lines.linewidth : 2
+lines.markersize : 4
+lines.markeredgewidth : 0.5
+
+legend.loc : center right
