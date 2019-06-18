@@ -26,7 +26,7 @@ and is meant to be preceded by subsample_datasets.py
 
 
 if __name__ == '__main__':
-	usage = 'Usage: python analyze_pca.py hd1 hd2 hd3 ....'
+	usage = 'Usage: python analyze_pca.py hip1 hip2 hip3 ....'
 	parser=OptionParser(usage)
 
 	parser.add_option('--output',dest='output', help='Output prefix for PDFs. Default=pca', default='pca')

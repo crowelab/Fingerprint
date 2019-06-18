@@ -16,7 +16,7 @@ of the repertoire fingerprinting protocol described in Sevy, Soto et al. 2018
 
 
 if __name__ == '__main__':
-	usage = 'Usage: python bootstrap_datasets.py --reps=10 --depth=100000 --n_jobs=8 hd1.tsv hd2.tsv'
+	usage = 'Usage: python subsample_datasets.py --reps=10 --depth=100000 --n_jobs=8 hip1.tsv hip2.tsv'
 	parser=OptionParser(usage)
 
 	parser.add_option('--reps',dest='reps', help='How many simulated datasets to make? Default=10', default=10)
